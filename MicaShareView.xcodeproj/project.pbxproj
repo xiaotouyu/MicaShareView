@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049F447E1D7556B100D69CAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F447D1D7556B100D69CAA /* main.m */; };
+		049F44811D7556B100D69CAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F44801D7556B100D69CAA /* AppDelegate.m */; };
+		049F44841D7556B100D69CAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F44831D7556B100D69CAA /* ViewController.m */; };
+		049F44871D7556B100D69CAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049F44851D7556B100D69CAA /* Main.storyboard */; };
+		049F44891D7556B100D69CAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049F44881D7556B100D69CAA /* Assets.xcassets */; };
+		049F448C1D7556B100D69CAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049F448A1D7556B100D69CAA /* LaunchScreen.storyboard */; };
+		049F44971D7556B100D69CAA /* MicaShareViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F44961D7556B100D69CAA /* MicaShareViewTests.m */; };
+		049F44A21D7556B100D69CAA /* MicaShareViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F44A11D7556B100D69CAA /* MicaShareViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		049F44931D7556B100D69CAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 049F44711D7556B100D69CAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 049F44781D7556B100D69CAA;
+			remoteInfo = MicaShareView;
+		};
+		049F449E1D7556B100D69CAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 049F44711D7556B100D69CAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 049F44781D7556B100D69CAA;
+			remoteInfo = MicaShareView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		049F44791D7556B100D69CAA /* MicaShareView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicaShareView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		049F447D1D7556B100D69CAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		049F447F1D7556B100D69CAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		049F44801D7556B100D69CAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		049F44821D7556B100D69CAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		049F44831D7556B100D69CAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		049F44861D7556B100D69CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		049F44881D7556B100D69CAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		049F448B1D7556B100D69CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		049F448D1D7556B100D69CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049F44921D7556B100D69CAA /* MicaShareViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicaShareViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		049F44961D7556B100D69CAA /* MicaShareViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicaShareViewTests.m; sourceTree = "<group>"; };
+		049F44981D7556B100D69CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049F449D1D7556B100D69CAA /* MicaShareViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicaShareViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		049F44A11D7556B100D69CAA /* MicaShareViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicaShareViewUITests.m; sourceTree = "<group>"; };
+		049F44A31D7556B100D69CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		049F44761D7556B100D69CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049F448F1D7556B100D69CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049F449A1D7556B100D69CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		049F44701D7556B100D69CAA = {
+			isa = PBXGroup;
+			children = (
+				049F447B1D7556B100D69CAA /* MicaShareView */,
+				049F44951D7556B100D69CAA /* MicaShareViewTests */,
+				049F44A01D7556B100D69CAA /* MicaShareViewUITests */,
+				049F447A1D7556B100D69CAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		049F447A1D7556B100D69CAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				049F44791D7556B100D69CAA /* MicaShareView.app */,
+				049F44921D7556B100D69CAA /* MicaShareViewTests.xctest */,
+				049F449D1D7556B100D69CAA /* MicaShareViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		049F447B1D7556B100D69CAA /* MicaShareView */ = {
+			isa = PBXGroup;
+			children = (
+				049F447F1D7556B100D69CAA /* AppDelegate.h */,
+				049F44801D7556B100D69CAA /* AppDelegate.m */,
+				049F44821D7556B100D69CAA /* ViewController.h */,
+				049F44831D7556B100D69CAA /* ViewController.m */,
+				049F44851D7556B100D69CAA /* Main.storyboard */,
+				049F44881D7556B100D69CAA /* Assets.xcassets */,
+				049F448A1D7556B100D69CAA /* LaunchScreen.storyboard */,
+				049F448D1D7556B100D69CAA /* Info.plist */,
+				049F447C1D7556B100D69CAA /* Supporting Files */,
+			);
+			path = MicaShareView;
+			sourceTree = "<group>";
+		};
+		049F447C1D7556B100D69CAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				049F447D1D7556B100D69CAA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		049F44951D7556B100D69CAA /* MicaShareViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				049F44961D7556B100D69CAA /* MicaShareViewTests.m */,
+				049F44981D7556B100D69CAA /* Info.plist */,
+			);
+			path = MicaShareViewTests;
+			sourceTree = "<group>";
+		};
+		049F44A01D7556B100D69CAA /* MicaShareViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				049F44A11D7556B100D69CAA /* MicaShareViewUITests.m */,
+				049F44A31D7556B100D69CAA /* Info.plist */,
+			);
+			path = MicaShareViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		049F44781D7556B100D69CAA /* MicaShareView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049F44A61D7556B100D69CAA /* Build configuration list for PBXNativeTarget "MicaShareView" */;
+			buildPhases = (
+				049F44751D7556B100D69CAA /* Sources */,
+				049F44761D7556B100D69CAA /* Frameworks */,
+				049F44771D7556B100D69CAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MicaShareView;
+			productName = MicaShareView;
+			productReference = 049F44791D7556B100D69CAA /* MicaShareView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		049F44911D7556B100D69CAA /* MicaShareViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049F44A91D7556B100D69CAA /* Build configuration list for PBXNativeTarget "MicaShareViewTests" */;
+			buildPhases = (
+				049F448E1D7556B100D69CAA /* Sources */,
+				049F448F1D7556B100D69CAA /* Frameworks */,
+				049F44901D7556B100D69CAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				049F44941D7556B100D69CAA /* PBXTargetDependency */,
+			);
+			name = MicaShareViewTests;
+			productName = MicaShareViewTests;
+			productReference = 049F44921D7556B100D69CAA /* MicaShareViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		049F449C1D7556B100D69CAA /* MicaShareViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049F44AC1D7556B100D69CAA /* Build configuration list for PBXNativeTarget "MicaShareViewUITests" */;
+			buildPhases = (
+				049F44991D7556B100D69CAA /* Sources */,
+				049F449A1D7556B100D69CAA /* Frameworks */,
+				049F449B1D7556B100D69CAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				049F449F1D7556B100D69CAA /* PBXTargetDependency */,
+			);
+			name = MicaShareViewUITests;
+			productName = MicaShareViewUITests;
+			productReference = 049F449D1D7556B100D69CAA /* MicaShareViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		049F44711D7556B100D69CAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = dashuios126;
+				TargetAttributes = {
+					049F44781D7556B100D69CAA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 83DDW5VL6U;
+					};
+					049F44911D7556B100D69CAA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 83DDW5VL6U;
+						TestTargetID = 049F44781D7556B100D69CAA;
+					};
+					049F449C1D7556B100D69CAA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 83DDW5VL6U;
+						TestTargetID = 049F44781D7556B100D69CAA;
+					};
+				};
+			};
+			buildConfigurationList = 049F44741D7556B100D69CAA /* Build configuration list for PBXProject "MicaShareView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 049F44701D7556B100D69CAA;
+			productRefGroup = 049F447A1D7556B100D69CAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				049F44781D7556B100D69CAA /* MicaShareView */,
+				049F44911D7556B100D69CAA /* MicaShareViewTests */,
+				049F449C1D7556B100D69CAA /* MicaShareViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		049F44771D7556B100D69CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049F448C1D7556B100D69CAA /* LaunchScreen.storyboard in Resources */,
+				049F44891D7556B100D69CAA /* Assets.xcassets in Resources */,
+				049F44871D7556B100D69CAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049F44901D7556B100D69CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049F449B1D7556B100D69CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		049F44751D7556B100D69CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049F44841D7556B100D69CAA /* ViewController.m in Sources */,
+				049F44811D7556B100D69CAA /* AppDelegate.m in Sources */,
+				049F447E1D7556B100D69CAA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049F448E1D7556B100D69CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049F44971D7556B100D69CAA /* MicaShareViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049F44991D7556B100D69CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049F44A21D7556B100D69CAA /* MicaShareViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		049F44941D7556B100D69CAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 049F44781D7556B100D69CAA /* MicaShareView */;
+			targetProxy = 049F44931D7556B100D69CAA /* PBXContainerItemProxy */;
+		};
+		049F449F1D7556B100D69CAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 049F44781D7556B100D69CAA /* MicaShareView */;
+			targetProxy = 049F449E1D7556B100D69CAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		049F44851D7556B100D69CAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049F44861D7556B100D69CAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		049F448A1D7556B100D69CAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049F448B1D7556B100D69CAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		049F44A41D7556B100D69CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		049F44A51D7556B100D69CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		049F44A71D7556B100D69CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MicaShareView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dashuchina.MicaShareView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		049F44A81D7556B100D69CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MicaShareView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dashuchina.MicaShareView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		049F44AA1D7556B100D69CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MicaShareViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dashuchina.MicaShareViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MicaShareView.app/MicaShareView";
+			};
+			name = Debug;
+		};
+		049F44AB1D7556B100D69CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MicaShareViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dashuchina.MicaShareViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MicaShareView.app/MicaShareView";
+			};
+			name = Release;
+		};
+		049F44AD1D7556B100D69CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MicaShareViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dashuchina.MicaShareViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MicaShareView;
+			};
+			name = Debug;
+		};
+		049F44AE1D7556B100D69CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MicaShareViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dashuchina.MicaShareViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MicaShareView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		049F44741D7556B100D69CAA /* Build configuration list for PBXProject "MicaShareView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049F44A41D7556B100D69CAA /* Debug */,
+				049F44A51D7556B100D69CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049F44A61D7556B100D69CAA /* Build configuration list for PBXNativeTarget "MicaShareView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049F44A71D7556B100D69CAA /* Debug */,
+				049F44A81D7556B100D69CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		049F44A91D7556B100D69CAA /* Build configuration list for PBXNativeTarget "MicaShareViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049F44AA1D7556B100D69CAA /* Debug */,
+				049F44AB1D7556B100D69CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		049F44AC1D7556B100D69CAA /* Build configuration list for PBXNativeTarget "MicaShareViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049F44AD1D7556B100D69CAA /* Debug */,
+				049F44AE1D7556B100D69CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 049F44711D7556B100D69CAA /* Project object */;
+}
