@@ -15,6 +15,7 @@
 		049F448C1D7556B100D69CAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049F448A1D7556B100D69CAA /* LaunchScreen.storyboard */; };
 		049F44971D7556B100D69CAA /* MicaShareViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F44961D7556B100D69CAA /* MicaShareViewTests.m */; };
 		049F44A21D7556B100D69CAA /* MicaShareViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F44A11D7556B100D69CAA /* MicaShareViewUITests.m */; };
+		049F44B11D7556DA00D69CAA /* MicaShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F44B01D7556DA00D69CAA /* MicaShareView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		049F449D1D7556B100D69CAA /* MicaShareViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicaShareViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		049F44A11D7556B100D69CAA /* MicaShareViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicaShareViewUITests.m; sourceTree = "<group>"; };
 		049F44A31D7556B100D69CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049F44AF1D7556DA00D69CAA /* MicaShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MicaShareView.h; sourceTree = "<group>"; };
+		049F44B01D7556DA00D69CAA /* MicaShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MicaShareView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				049F44801D7556B100D69CAA /* AppDelegate.m */,
 				049F44821D7556B100D69CAA /* ViewController.h */,
 				049F44831D7556B100D69CAA /* ViewController.m */,
+				049F44AF1D7556DA00D69CAA /* MicaShareView.h */,
+				049F44B01D7556DA00D69CAA /* MicaShareView.m */,
 				049F44851D7556B100D69CAA /* Main.storyboard */,
 				049F44881D7556B100D69CAA /* Assets.xcassets */,
 				049F448A1D7556B100D69CAA /* LaunchScreen.storyboard */,
@@ -207,7 +212,6 @@
 				TargetAttributes = {
 					049F44781D7556B100D69CAA = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 83DDW5VL6U;
 					};
 					049F44911D7556B100D69CAA = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -273,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049F44B11D7556DA00D69CAA /* MicaShareView.m in Sources */,
 				049F44841D7556B100D69CAA /* ViewController.m in Sources */,
 				049F44811D7556B100D69CAA /* AppDelegate.m in Sources */,
 				049F447E1D7556B100D69CAA /* main.m in Sources */,
@@ -418,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MicaShareView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dashuchina.MicaShareView;
@@ -429,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MicaShareView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dashuchina.MicaShareView;
